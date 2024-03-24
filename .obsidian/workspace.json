@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9491c4ceed6deeb7",
+        "id": "fec8f29ccf8b2c76",
         "type": "tabs",
         "children": [
           {
-            "id": "3525be51b6a9a234",
+            "id": "4361013fbdbf6074",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "csharp/06-Patterns/03-Structural/01-Adapter/02-GenericValueAdapter/Program.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "csharp/06-Patterns/03-Structural/01-Adapter/02-GenericValueAdapter/Program.md",
+                "file": "k8s-and-docker/02-CoreConcepts/08-Pods/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "csharp/06-Patterns/03-Structural/01-Adapter/02-GenericValueAdapter/Program.md",
+                "file": "k8s-and-docker/02-CoreConcepts/08-Pods/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "csharp/06-Patterns/03-Structural/01-Adapter/02-GenericValueAdapter/Program.md"
+                "file": "k8s-and-docker/02-CoreConcepts/08-Pods/README.md"
               }
             }
           }
@@ -146,44 +142,51 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "3525be51b6a9a234",
+  "active": "218857e5c3a995ea",
   "lastOpenFiles": [
-    "bash/core_utils/example_usecase2/numbers.md",
-    "bash/core_utils/example_usecase/subtitles_dutch.md",
-    "csharp/06-Patterns/03-Structural/01-Adapter/01-HRSystem/temp.md",
-    "csharp/06-Patterns/03-Structural/01-Adapter/01-HRSystem/Program.md",
-    "csharp/06-Patterns/01-SOLID/03-LiskovSubstitution/02-GoodExample/Program.md",
-    "csharp/06-Patterns/01-SOLID/03-LiskovSubstitution/01-BadExample/Program.md",
-    "csharp/06-Patterns/01-SOLID/01-SingleResponsibility/Program.md",
-    "csharp/literals-constants-variables.md",
-    "csharp/06-Patterns/04-Behavioral/temp.md",
-    "csharp/06-Patterns/03-Structural/05-Facade/README.md",
-    "csharp/06-Patterns/03-Structural/04-Decorator/README.md",
-    "csharp/06-Patterns/03-Structural/04-Decorator/01-Starbucks/Program.md",
-    "csharp/06-Patterns/03-Structural/04-Decorator/01-Starbucks/ICoffe.md",
-    "csharp/06-Patterns/03-Structural/04-Decorator/01-Starbucks/CappuccinoDecorator.md",
-    "csharp/06-Patterns/03-Structural/04-Decorator/01-Starbucks/BaseCoffee.md",
-    "csharp/06-Patterns/03-Structural/03-Composite/03-CompositeSpecification/Program.md",
-    "csharp/06-Patterns/03-Structural/03-Composite/02-NeuralNetworks/Program.md",
-    "csharp/06-Patterns/03-Structural/03-Composite/01-GeometricShapes/Program.md",
-    "csharp/06-Patterns/03-Structural/02-Bridge/01-Bridge/Program.md",
-    "csharp/06-Patterns/03-Structural/01-Adapter/02-GenericValueAdapter/Program.md",
-    "csharp/06-Patterns/03-Structural/01-Adapter/README.md",
-    "csharp/06-Patterns/02-Creational/04-Singleton/06-AmbientContext/README.md",
-    "csharp/06-Patterns/02-Creational/04-Singleton/05-PerThreadSingleton/Program.md",
-    "csharp/06-Patterns/02-Creational/04-Singleton/04-Monostate/Program.md",
-    "csharp/06-Patterns/02-Creational/04-Singleton/03-SingletonInDI/Program.md",
-    "csharp/06-Patterns/02-Creational/04-Singleton/02-TestabilityIssues/Tests.md",
-    "csharp/06-Patterns/02-Creational/04-Singleton/06-AmbientContext/Program.cs",
-    "csharp/06-Patterns/02-Creational/04-Singleton/06-AmbientContext/Program.,d.cs",
-    "csharp/06-Patterns/02-Creational/02-Factory/05-ObjectTrackingAndBulkReplacement/02-BulkReplacement/Program.cs",
-    "csharp/06-Patterns/02-Creational/02-Factory/05-ObjectTrackingAndBulkReplacement/02-BulkReplacement/02-BulkReplacement.csproj",
-    "csharp/06-Patterns/02-Creational/02-Factory/05-ObjectTrackingAndBulkReplacement/01-ObjectTracking/Program.cs",
-    "csharp/06-Patterns/02-Creational/02-Factory/05-ObjectTrackingAndBulkReplacement/01-ObjectTracking/01-ObjectTracking.csproj",
-    "csharp/06-Patterns/02-Creational/01-Builder/05-FunctionalBuilder/02-WithGenerics/Program.cs",
-    "csharp/06-Patterns/02-Creational/01-Builder/05-FunctionalBuilder/02-WithGenerics/02-FunctionalBuilder.csproj",
-    "csharp/06-Patterns/02-Creational/01-Builder/05-FunctionalBuilder/01-WithoutGenerics/Program.cs",
-    "csharp/06-Patterns/02-Creational/01-Builder/05-FunctionalBuilder/01-WithoutGenerics/01-FunctionalBuilder.csproj",
+    "k8s-and-docker/02-CoreConcepts/07-KubeProxy/README.md",
+    "k8s-and-docker/02-CoreConcepts/07-KubeProxy/kube-proxy.png",
+    "k8s-and-docker/02-CoreConcepts/05-KubeScheduler/README.md",
+    "k8s-and-docker/02-CoreConcepts/04-KubeControllerManager/README.md",
+    "k8s-and-docker/02-CoreConcepts/03-KubeApiServer/README.md",
+    "k8s-and-docker/02-CoreConcepts/02-ETCD/README.md",
+    "csharp/04-Riddles/01-IEnumerable/Program.md",
+    "k8s-and-docker/KubectlCommands.md",
+    "k8s-and-docker/06-Security/03-CertificateCreation/README.md",
+    "k8s-and-docker/06-Security/02-TLSInKubernetes/README.md",
+    "k8s-and-docker/06-Security/01-TLSBasics/README.md",
+    "k8s-and-docker/06-Security/03-CertificateCreation",
+    "k8s-and-docker/06-Security/02-TLSInKubernetes",
+    "k8s-and-docker/06-Security/01-TLSBasics",
+    "k8s-and-docker/06-Security",
+    "k8s-and-docker/05-ClusterMaintenance/01-Upgrades/README.md",
+    "k8s-and-docker/05-ClusterMaintenance/EtcdSpecialCommands.md",
+    "k8s-and-docker/05-ClusterMaintenance/01-Upgrades",
+    "k8s-and-docker/05-ClusterMaintenance",
+    "k8s-and-docker/04-LifecycleManagement/06-InitContainer/README.md",
+    "k8s-and-docker/04-LifecycleManagement/05-Secrets/README.md",
+    "k8s-and-docker/04-LifecycleManagement/04-ConfigMap/README.md",
+    "k8s-and-docker/04-LifecycleManagement/03-EnvironmentVariables/README.md",
+    "k8s-and-docker/04-LifecycleManagement/02-EntrypointAndCmd/README.md",
+    "k8s-and-docker/04-LifecycleManagement/01-RollingUpdatesAndRollbacks/README.md",
+    "k8s-and-docker/04-LifecycleManagement/06-InitContainer",
+    "k8s-and-docker/04-LifecycleManagement/05-Secrets",
+    "k8s-and-docker/04-LifecycleManagement/04-ConfigMap",
+    "k8s-and-docker/04-LifecycleManagement/03-EnvironmentVariables",
+    "k8s-and-docker/03-Scheduling/07-StaticPods/StaticPod.png",
+    "k8s-and-docker/03-Scheduling/07-StaticPods/README.md",
+    "k8s-and-docker/03-Scheduling/06-DaemonSets/README.md",
+    "k8s-and-docker/03-Scheduling/06-DaemonSets/2-DaemonSet.png",
+    "k8s-and-docker/03-Scheduling/06-DaemonSets/1-DaemonSet.png",
+    "k8s-and-docker/03-Scheduling/04-NodeSelectors/README.md",
+    "k8s-and-docker/03-Scheduling/05-NodeAffinity/README.md",
+    "k8s-and-docker/03-Scheduling/02-LabelsAndColors/README.md",
+    "k8s-and-docker/03-Scheduling/03-TaintsAndTolerations/README.md",
+    "k8s-and-docker/03-Scheduling/01-ManualScheduling/README.md",
+    "k8s-and-docker/02-CoreConcepts/12-Services/02-NodePort.png",
+    "k8s-and-docker/02-CoreConcepts/12-Services/01-Network.png",
+    "k8s-and-docker/02-CoreConcepts/10-Deployments/Deployment.png",
+    "k8s-and-docker/02-CoreConcepts/09-ReplicaSets/ReplicaSet.png",
     "csharp/02-StackHeapValueReference/RAM.svg"
   ]
 }

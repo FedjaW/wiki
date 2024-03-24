@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-pod
+  labels:
+    app: myapp
+    type: front-end # also tier instead of type?
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      tier: frontend
+  template: # the part below is the pod defintion yaml. see pod-defintion.yaml in the folder 08-Pods
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        tier: frontend
+    spec:
+      containers:
+      - name: nginx-container
+        image: nginx
+  replicas: 3
+  selector:
+    matchLabels:
+      type: front-end
