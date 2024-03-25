@@ -148,6 +148,34 @@ echo ~root  # /root
 
 # if the user does not exist
 echo ~abc  # ~abc
+
+# ~ can be used as a shortcut for
+echo ~+ #   -> $PWD
+echo ~- #   -> $OLDPWD
+# with ~- you can toggle between directories
+```
+
+### Brace Expansion
+
+- String lists
+
+```SHELL
+# String lists
+echo {a,19,z,barry,42} # expands to: a 10 z barry 42
+echo {jan,feb,mar,apr} # expands to: jan feb mar apr (no spaces inbetween allowed)
+echo {1,2,4,5,6,7,8,9} # expands to: 1 2 3 4 5 6 7 8 9
+```
+
+- Range lists
+
+```SHELL
+# Range lists
+echo {1..9} # expands to: 1 2 3 4 5 6 7 8 9 (no spaces around dots)
+echo {1..10..2} # expands to: 
+echo {a..z} 
+echo month{1..12}  # expands to: month1 month2 ... month12
+echo month{01..12}  # expands to: month01 month02 ... month12
+echo month{01..12}/day{01..31}  # expands to: month01/day01 month01/day02 ...
 ```
 
 ## Inspect processes
