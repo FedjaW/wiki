@@ -14,6 +14,7 @@ git log --name-status --follow --oneline hello.txt
 # demonstrates a nice combination
 git log --grep="foo" --author=hans --since=2.weeks
 ```
+
 ```SHELL
 # you can filter for (R) renamed
 git log --diff-filter=R --find-renames

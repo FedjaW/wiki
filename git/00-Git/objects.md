@@ -72,11 +72,11 @@ Points to the initial commit ^
 
 - **HEAD** is how git knows what branch you are currently on, and what the next parent will be
 - It is a pointer
-    - Is usually points at the **_name_** of the current branch
+  - Is usually points at the **_name_** of the current branch
     - But it can point to any commit too (detached HEAD)
 - It moves when:
-    - You make a commit in the currently active branch
-    - When you checkout a new branch
+  - You make a commit in the currently active branch
+  - When you checkout a new branch
 
 ## Detached HEAD
 
@@ -90,7 +90,7 @@ To safe your work in a detached head
 - Create a new branch that points to the last commit you made in a detached state
 `git branch <newbranchname> <commit>`
 - Why the last commit
-    - Because the other commits point to their parents
+  - Because the other commits point to their parents
 
 Discard your work
 
