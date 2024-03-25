@@ -10,7 +10,7 @@
 
 BASH - Bourne Again SHell
 
-**Shebang #!**
+## Shebang #!
 
 `#!/bin/bash` is a comment read by the shell and tells the os where the path to the binary is that must execute the script.
 
@@ -57,12 +57,12 @@ One way to add a script to the path variable:
   - User defined variables
   - Shell variables
     - Bourne Shell Variables
-        - <span style="color:brown">Bourne</span> shell (created by Stephen Bourne 1979)
-        - <span style="color:brown">10</span>  in total
+      - <span style="color:brown">Bourne</span> shell (created by Stephen Bourne 1979)
+      - <span style="color:brown">10</span> in total
     - Bash Shell Variables
-        - <span style="color:brown">Bash</span> shell (based on the Bourne shell)
-        - <span style="color:brown">B</span> ourne <span style="color:brown">A</span>gain <span style="color:brown">SH</span>ell (BASH)
-        - Around <span style="color:brown">95</span> in total
+      - <span style="color:brown">Bash</span> shell (based on the Bourne shell)
+      - <span style="color:brown">B</span> ourne <span style="color:brown">A</span>gain <span style="color:brown">SH</span>ell (BASH)
+      - Around <span style="color:brown">95</span> in total
 - Positional parameters
 - Special parameters
 
