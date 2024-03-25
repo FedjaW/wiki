@@ -32,7 +32,7 @@ There are three types of quoting in bash.
 2. Single Quotes (' ')
    - Removes special meaning from all character inside
 3. Double Quotes (" ")
-   - Removes special meanignn from all except dollar signs ($) and backticks (`)  
+   - Removes special meaning from all except dollar signs ($) and backticks (`)  
 
 ## Step 1: Tokenisation
 
