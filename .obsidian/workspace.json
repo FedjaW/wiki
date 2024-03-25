@@ -81,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k8s-and-docker/02-CoreConcepts/08-Pods/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k8s-and-docker/02-CoreConcepts/08-Pods/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "k8s-and-docker/02-CoreConcepts/08-Pods/README.md"
-              }
+              "state": {}
             }
           }
         ]
