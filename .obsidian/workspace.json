@@ -11,8 +11,12 @@
             "id": "4361013fbdbf6074",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "algorithms/Complexity.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k8s-and-docker/02-CoreConcepts/08-Pods/README.md",
+                "file": "algorithms/Complexity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k8s-and-docker/02-CoreConcepts/08-Pods/README.md",
+                "file": "algorithms/Complexity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "k8s-and-docker/02-CoreConcepts/08-Pods/README.md"
+                "file": "algorithms/Complexity.md"
               }
             }
           }
@@ -142,8 +146,12 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "218857e5c3a995ea",
+  "active": "4361013fbdbf6074",
   "lastOpenFiles": [
+    "bash/mastery/02 How Bash Processes Commands Lines.md",
+    "algorithms/Complexity.md",
+    "algorithms",
+    "bash/mastery/01 Variables and Shell Expansions.md",
     "k8s-and-docker/02-CoreConcepts/07-KubeProxy/README.md",
     "k8s-and-docker/02-CoreConcepts/07-KubeProxy/kube-proxy.png",
     "k8s-and-docker/02-CoreConcepts/05-KubeScheduler/README.md",
@@ -172,7 +180,6 @@
     "k8s-and-docker/04-LifecycleManagement/06-InitContainer",
     "k8s-and-docker/04-LifecycleManagement/05-Secrets",
     "k8s-and-docker/04-LifecycleManagement/04-ConfigMap",
-    "k8s-and-docker/04-LifecycleManagement/03-EnvironmentVariables",
     "k8s-and-docker/03-Scheduling/07-StaticPods/StaticPod.png",
     "k8s-and-docker/03-Scheduling/07-StaticPods/README.md",
     "k8s-and-docker/03-Scheduling/06-DaemonSets/README.md",
@@ -181,8 +188,6 @@
     "k8s-and-docker/03-Scheduling/04-NodeSelectors/README.md",
     "k8s-and-docker/03-Scheduling/05-NodeAffinity/README.md",
     "k8s-and-docker/03-Scheduling/02-LabelsAndColors/README.md",
-    "k8s-and-docker/03-Scheduling/03-TaintsAndTolerations/README.md",
-    "k8s-and-docker/03-Scheduling/01-ManualScheduling/README.md",
     "k8s-and-docker/02-CoreConcepts/12-Services/02-NodePort.png",
     "k8s-and-docker/02-CoreConcepts/12-Services/01-Network.png",
     "k8s-and-docker/02-CoreConcepts/10-Deployments/Deployment.png",
