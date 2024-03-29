@@ -1,6 +1,6 @@
 # Linked list
 
-![alt text](./LinkedList.png)
+![alt text](./02-LinkedList.png)
 
 ```js
 Node<T>
