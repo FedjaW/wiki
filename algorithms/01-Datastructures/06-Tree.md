@@ -25,7 +25,13 @@ type BinaryNode<T> = {
 - balanced - A tree is perfectly balanced when any node's left and right children have the same height.
 - branching factor - the amount of children a tree has.
 
-## Traverse a tree - implementation
+## Traverse a tree - Depth first traversal
+
+DFS: We walk the left side of the tree until the last node is visisted of the left hand side.
+Then we walk on level up and so on..
+
+Depth First Search preserves shape of the tree, Breadth first search does not!
+Hence, you can use DFS to check if two trees are equal!
 
 ```js
 type BinaryNode<T> = {

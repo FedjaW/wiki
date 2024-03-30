@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "712639df71b6e06e",
+        "id": "34d4241266bb91aa",
         "type": "tabs",
         "children": [
           {
-            "id": "b35f48b5abc8b276",
+            "id": "9451e82e31242f60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithms/0-Datastructures/1-Array.md",
+                "file": "algorithms/01-Search/05-Depth-First-Search.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithms/0-Datastructures/1-Array.md",
+                "file": "algorithms/01-Search/05-Depth-First-Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithms/0-Datastructures/1-Array.md",
+                "file": "algorithms/01-Search/05-Depth-First-Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithms/0-Datastructures/1-Array.md"
+                "file": "algorithms/01-Search/05-Depth-First-Search.md"
               }
             }
           }
@@ -146,8 +146,18 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "b35f48b5abc8b276",
+  "active": "9451e82e31242f60",
   "lastOpenFiles": [
+    "algorithms/01-Datastructures/08-Graphs.md",
+    "algorithms/01-Datastructures/07-Heap.md",
+    "algorithms/01-Search/05-Depth-First-Search.md",
+    "k8s/02-CoreConcepts/02-ETCD/README.md",
+    "tmux/README.md",
+    "linux/LFCS/00-README.md",
+    "How To Learn.md",
+    "Unbenannt.md",
+    "algorithms/01-Datastructures/06-Tree.md",
+    "algorithms/01-Search/04-Breadth-First-Search.md",
     "algorithms/0-Datastructures/LinkedList.png",
     "algorithms/0-Datastructures/2-LinkedList.md",
     "algorithms/0-Datastructures/3-Queue.md",
@@ -171,21 +181,12 @@
     "k8s-and-docker/06-Security/02-TLSInKubernetes",
     "k8s-and-docker/06-Security/01-TLSBasics",
     "k8s-and-docker/06-Security",
-    "k8s-and-docker/05-ClusterMaintenance/01-Upgrades/README.md",
-    "k8s-and-docker/05-ClusterMaintenance/EtcdSpecialCommands.md",
     "k8s-and-docker/05-ClusterMaintenance/01-Upgrades",
     "k8s-and-docker/05-ClusterMaintenance",
-    "k8s-and-docker/04-LifecycleManagement/06-InitContainer/README.md",
-    "k8s-and-docker/04-LifecycleManagement/05-Secrets/README.md",
-    "k8s-and-docker/04-LifecycleManagement/04-ConfigMap/README.md",
-    "k8s-and-docker/04-LifecycleManagement/03-EnvironmentVariables/README.md",
-    "k8s-and-docker/04-LifecycleManagement/02-EntrypointAndCmd/README.md",
-    "k8s-and-docker/04-LifecycleManagement/01-RollingUpdatesAndRollbacks/README.md",
     "k8s-and-docker/04-LifecycleManagement/06-InitContainer",
     "k8s-and-docker/04-LifecycleManagement/05-Secrets",
     "k8s-and-docker/04-LifecycleManagement/04-ConfigMap",
     "k8s-and-docker/03-Scheduling/07-StaticPods/StaticPod.png",
-    "k8s-and-docker/03-Scheduling/07-StaticPods/README.md",
     "k8s-and-docker/03-Scheduling/06-DaemonSets/2-DaemonSet.png",
     "k8s-and-docker/03-Scheduling/06-DaemonSets/1-DaemonSet.png",
     "k8s-and-docker/02-CoreConcepts/12-Services/02-NodePort.png",
