@@ -19,7 +19,7 @@ This is not an exhaustive list of terms, but it is the terms that we may end up 
 **Implementation Terms:**
 
 - node: a point or vertex on the graph
-- edge: the connection betxit two nodes
+- edge: the connection between two nodes
 
 **Big O:**
 
