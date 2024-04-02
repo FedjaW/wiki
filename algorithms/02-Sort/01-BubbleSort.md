@@ -2,7 +2,7 @@
 
 Sorted if `Xi <= Xi+1`. X is the value of the array, i the index.
 
-Very simple sorting algorithm. Compare Xi and Xi+1 and swap if Xi is bigger than Xi+1.
+Very simple sorting algorithm. Compare `Xi` and `Xi+1` and swap if `Xi` is bigger than `Xi+1`.
 
 The first iteration will produce an array where the largest nummer is at the end.
 

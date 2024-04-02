@@ -36,8 +36,8 @@ function partition(arr: number[], lo: number, hi: number): number {
     }
   }
 
-  // move pivot, so that everythin to the left
-  // is smaller and everythin to the right
+  // move pivot, so that everything to the left
+  // is smaller and everything to the right
   // is bigger than the pivot
   idx++;
   arr[hi] = arr[idx];
