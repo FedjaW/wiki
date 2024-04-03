@@ -12,7 +12,7 @@
 
 To inspect the index
 
-```
+```SHELL
 git ls-files -s
 
 Mode   SHA1                                         filename

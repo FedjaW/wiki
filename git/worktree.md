@@ -13,5 +13,3 @@ or
 
 READ THE DOCS:
 `tldr git-worktree` # need to first install tldr
-
-TODO: learn and use worktrees!
