@@ -1,6 +1,5 @@
 # git checkout
 
-
 ```SHELL
 # checkout a file from a specific commit
 # will copy overwrite both working and staging area!
