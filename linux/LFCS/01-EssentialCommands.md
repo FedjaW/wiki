@@ -66,3 +66,24 @@ ln -s path_to_target_file path_to_link_file
 ```
 
 ![alt text](./01-SoftLinks.svg)
+
+## File Permissions
+
+![alt text](./01-Permissions.svg)
+
+```SHELL
+# change group
+chgrp wheel new_script.sh
+```
+
+```SHELL
+# change owner
+# only the root user can change owner (sudo)
+sudo chown jane new_script.sh
+```
+
+```SHELL
+# change permissions
+# chmod - change mode
+chmod o+w new_script.sh
+```
