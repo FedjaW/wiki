@@ -1,3 +1,3 @@
 # About
 
-LFCS - Linux Foundation Certified Sytem Administrator
+LFCS - Linux Foundation Certified System Administrator

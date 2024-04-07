@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ac45d9e08041b2a4",
+        "id": "3900cb432cd55d33",
         "type": "tabs",
         "children": [
           {
-            "id": "a0c402f2f013022d",
+            "id": "b9ad33a10b389de1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "linux/LFCS/01-EssentialCommands.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "linux/LFCS/01-EssentialCommands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "linux/LFCS/01-EssentialCommands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "linux/LFCS/01-EssentialCommands.md"
+              }
             }
           }
         ]
@@ -138,10 +146,17 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "a0c402f2f013022d",
+  "active": "b9ad33a10b389de1",
   "lastOpenFiles": [
+    "linux/LFCS/01-HardLinks.png",
+    "linux/LFCS/00-README.md",
     "k8s/06-Security/01-TLSBasics/README.md",
     "grabbelkiste/HTTPSZertifikate.md",
+    "grabbelkiste",
+    "HTTPSZertifikate.md",
+    "security/TLSZertifikat.md",
+    "security/HTTPSZertifikate.md",
+    "security",
     "k8s/06-Security/02-TLSInKubernetes/README.md",
     "k8s/06-Security/03-CertificateCreation/README.md",
     "algorithms/01-Search/04-Breadth-First-Search.md",
@@ -152,7 +167,6 @@
     "algorithms/01-Datastructures/07-Heap.md",
     "k8s/02-CoreConcepts/02-ETCD/README.md",
     "tmux/README.md",
-    "linux/LFCS/00-README.md",
     "k8s/02-CoreConcepts/11-CertificationTip/README.md",
     "k8s/02-CoreConcepts/06-Kubelet/README.md",
     "k8s/02-CoreConcepts/02-ETCD/README.md",
@@ -163,10 +177,6 @@
     "git/reset.md",
     "git/log.md",
     "git/checkout.md",
-    "git/00-Git/worktree.md",
-    "git/00-Git/objects.md",
-    "git/00-Git/areas/2-repository.md",
-    "git/00-Git/areas/1-stagingarea.md",
     "algorithms/02-Sort/Quicksort.png",
     "algorithms/01-Datastructures/02-LinkedList.png",
     "algorithms/0-Datastructures/LinkedList.png",
@@ -179,8 +189,6 @@
     "k8s-and-docker/05-ClusterMaintenance/01-Upgrades",
     "k8s-and-docker/05-ClusterMaintenance",
     "k8s-and-docker/04-LifecycleManagement/06-InitContainer",
-    "k8s-and-docker/04-LifecycleManagement/05-Secrets",
-    "k8s-and-docker/04-LifecycleManagement/04-ConfigMap",
     "k8s-and-docker/03-Scheduling/07-StaticPods/StaticPod.png",
     "k8s-and-docker/03-Scheduling/06-DaemonSets/2-DaemonSet.png",
     "k8s-and-docker/03-Scheduling/06-DaemonSets/1-DaemonSet.png",
