@@ -146,8 +146,13 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "b9ad33a10b389de1",
+  "active": "218857e5c3a995ea",
   "lastOpenFiles": [
+    "go/variables.md",
+    "go/variables",
+    "git/variables",
+    "go",
+    "gi",
     "linux/LFCS/01-HardLinks.png",
     "linux/LFCS/00-README.md",
     "k8s/06-Security/01-TLSBasics/README.md",
@@ -185,15 +190,10 @@
     "k8s-and-docker/06-Security/03-CertificateCreation",
     "k8s-and-docker/06-Security/02-TLSInKubernetes",
     "k8s-and-docker/06-Security/01-TLSBasics",
-    "k8s-and-docker/06-Security",
-    "k8s-and-docker/05-ClusterMaintenance/01-Upgrades",
-    "k8s-and-docker/05-ClusterMaintenance",
-    "k8s-and-docker/04-LifecycleManagement/06-InitContainer",
     "k8s-and-docker/03-Scheduling/07-StaticPods/StaticPod.png",
     "k8s-and-docker/03-Scheduling/06-DaemonSets/2-DaemonSet.png",
     "k8s-and-docker/03-Scheduling/06-DaemonSets/1-DaemonSet.png",
     "k8s-and-docker/02-CoreConcepts/12-Services/02-NodePort.png",
-    "k8s-and-docker/02-CoreConcepts/12-Services/01-Network.png",
-    "k8s-and-docker/02-CoreConcepts/10-Deployments/Deployment.png"
+    "k8s-and-docker/02-CoreConcepts/12-Services/01-Network.png"
   ]
 }
