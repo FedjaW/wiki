@@ -1,11 +1,11 @@
 # HTTPS-Zertifikate für Server
 
 An SSL certificate is part of the TLS protocol.
-Wofür HTTPS benötingt wird:
+Wofür HTTPS benötigt wird:
 
-1. Verschschlüsselung zwischen dem Datenverkehr zwischen Client und Server
+1. Verschlüsselung zwischen dem Datenverkehr zwischen Client und Server
    Verfahren: AES (Advanced Encryption Standard) -> Symmetrisches Verfahren
-   Dafür braucht man einen gmeinsamen Schlüssel. Der Schlüssel wird ausgetauscht mit dem Diffy-Hellman Verfahren, man kennt den im Vorfeld nicht.
+   Dafür braucht man einen gemeinsamen Schlüssel. Der Schlüssel wird ausgetauscht mit dem Diffy-Hellman Verfahren, man kennt den im Vorfeld nicht.
    Bis hierhin hat es noch nichts mit Zertifikaten zu tun.
 
 2. Die Identität des Servers für den Client Überprüfbar zu machen

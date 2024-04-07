@@ -31,7 +31,7 @@ Every element in a collection has to be compare to every other element. THe hand
 
 ## Exponential time: 2^n
 
-If you add a single element to a colleciton, the processing power required doubles.
+If you add a single element to a collection, the processing power required doubles.
 
 ## Identifying Runtime Complexity
 
@@ -39,7 +39,7 @@ If you add a single element to a colleciton, the processing power required doubl
 
 - Iterating through half of a collection -> Still O(n). There are no constants in runtime.
 
-- Iterating through two different collections with seperate for loops -> O(n + m)
+- Iterating through two different collections with separate for loops -> O(n + m)
 
 - Two nested for loops iterating over the same collection -> O(n^2)
 
