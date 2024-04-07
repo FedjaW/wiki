@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5754fb879a404b53",
+        "id": "ac45d9e08041b2a4",
         "type": "tabs",
         "children": [
           {
-            "id": "053414c1a1c73b13",
+            "id": "a0c402f2f013022d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,12 +138,15 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "053414c1a1c73b13",
+  "active": "a0c402f2f013022d",
   "lastOpenFiles": [
+    "k8s/06-Security/01-TLSBasics/README.md",
+    "grabbelkiste/HTTPSZertifikate.md",
+    "k8s/06-Security/02-TLSInKubernetes/README.md",
+    "k8s/06-Security/03-CertificateCreation/README.md",
     "algorithms/01-Search/04-Breadth-First-Search.md",
     "Unbenannt.canvas",
     "algorithms/01-Search/02-BinarySearch.md",
-    "grabbelkiste/HTTPSZertifikate.md",
     "algorithms/01-Search/05-Depth-First-Search.md",
     "algorithms/01-Datastructures/08-Graphs.md",
     "algorithms/01-Datastructures/07-Heap.md",
@@ -164,9 +167,6 @@
     "git/00-Git/objects.md",
     "git/00-Git/areas/2-repository.md",
     "git/00-Git/areas/1-stagingarea.md",
-    "docker/cmd.md",
-    "csharp/03-DelegatesLambdasGenerics/01-Basics/Program.md",
-    "csharp/03-DelegatesLambdasGenerics/01-Basics/Generics.md",
     "algorithms/02-Sort/Quicksort.png",
     "algorithms/01-Datastructures/02-LinkedList.png",
     "algorithms/0-Datastructures/LinkedList.png",

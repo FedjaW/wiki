@@ -2,7 +2,7 @@
 
 ## Goals
 
-- What are TLS Certificates?
+- What are TLS Certificates? (See also: [[HTTPSZertifikate]])
 - How does Kubernetes use Certificates?
 - How to generate them
 - How to configure them
