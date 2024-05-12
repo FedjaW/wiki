@@ -170,7 +170,6 @@ s := fmt.Sprintf("I am %.2f years old", 10.523)
 
 If you're interested in all the formatting options, you can look at the fmt package.
 
-
 ## THE INITIAL STATEMENT OF AN IF BLOCK
 
 An if conditional can have an "initial" statement. The variable(s) created in the initial statement are only defined within the scope of the if body.
