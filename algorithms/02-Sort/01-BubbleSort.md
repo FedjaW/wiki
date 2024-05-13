@@ -25,17 +25,16 @@ export default function bubble_sort(arr: number[]): void {
 }
 ```
 
-
 Big O discussion:
 
 First run you need N steps.
-Second run you need N-1 steps. 
-Third run you need N-2 steps. 
+Second run you need N-1 steps.
+Third run you need N-2 steps.
 ..
 Last run you need N-N+1 steps.
 
 Now remember `Little Gauß` rule: 1 + 2 + 3 ... + N = (N+1)*N/2
-So this aligns with our algorithm. 
+So this aligns with our algorithm.
 
 O((N+1)*N/2) = O((N+1)*N) = O(N^2+N) = O(N^2)
 

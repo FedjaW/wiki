@@ -89,4 +89,3 @@ x = 42 // globale variable
 let x = 42 // lokale variable
 const y = 42 // Konstante
 ```
-

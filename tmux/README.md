@@ -6,7 +6,7 @@ And every window can have multiple panes.
 
 `tmux-server -> sessions -> windows -> panes`
 
-Run `tmux` in the terminal to start a tmux server. 
+Run `tmux` in the terminal to start a tmux server.
 Note that you can not start a tmux server in a tmux server.
 
 If no server is running already then it will spin up one and open a pane on a window on a session on the server.
@@ -64,10 +64,10 @@ We do not use paines but if you do:
 ## Did you know?
 
 You can open a session for a specific path!
-`tmux new-session -s "foobar" -d -c "$HOME/personal/dev-productivity"` 
+`tmux new-session -s "foobar" -d -c "$HOME/personal/dev-productivity"`
 
 You can open a window for a specific path!
-`tmux new-window -n "foobar" -c "$HOME/personal"` 
+`tmux new-window -n "foobar" -c "$HOME/personal"`
 
 You can switch to a session by name!
 `tmux switch-client -t "foobar"`
@@ -85,7 +85,7 @@ Usability Tip
 
 This for the copy/paste in tmuxrc
 
-```
+```shell
 set-window-option -g mode-keys vi
 bind -T copy-mode-vi v send-keys -X begin-selection
 bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel 'xclip -in -selection clipboard'

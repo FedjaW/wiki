@@ -14,8 +14,8 @@ What is the Big O of getting a specific value from the array?
 
 - You access it by its starting memory address and taking the offset based on the size of the type
 - a + width * offset
-    - (a) being the address
-    - (width) being the size of the type
-    - (offset) being the input
+  - (a) being the address
+  - (width) being the size of the type
+  - (offset) being the input
 - Big O is constant time because nothing depends on the input
 - We just access the value directly

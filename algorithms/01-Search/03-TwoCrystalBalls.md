@@ -19,7 +19,7 @@ That is:
 
 O(Sqrt(N) + Sqrt(N)) = O(2*Sqrt(N)) = O(Sqrt(N))
 
-```j
+```js
 // breaks array is has this format: [0,0,1,1,1,1,1]
 
 // my own solution

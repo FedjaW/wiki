@@ -49,19 +49,19 @@ Search for commit message
 git log -S <searchterm>
 ```
 
-Clean up untracked files or build artifacts: 
+Clean up untracked files or build artifacts:
 
 ```sh
 git clean -df
 ```
 
-Switch back to the previous branch: 
+Switch back to the previous branch:
 
 ```shell
 git checkout -
 ```
 
-List all branches: 
+List all branches:
 
 ```shell
 git branch -a
@@ -116,4 +116,3 @@ List all tags
 ```shell
 git tag
 ```
-

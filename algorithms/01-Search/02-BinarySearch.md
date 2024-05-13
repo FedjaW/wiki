@@ -3,11 +3,12 @@
 - Precondition: data must be sorted
 
 Lets say we jump by 10%
+
 - Then you can jump by a fixed number and look if the value is greater than the input value
 - Then you jump again
 - If your value is less than the searched input value you go back one jump and linear search for the value
 - The BigO is O(10 + 0.1*N) which is O(N)
-    - Here 10 because we assume we jump by 10% (it is just an example here, no proof)
+  - Here 10 because we assume we jump by 10% (it is just an example here, no proof)
 
 Lets say we jump by 1/2
 

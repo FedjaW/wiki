@@ -1,6 +1,7 @@
 # Variables
 
 Go's basic variable types are:
+
 ```go
 bool
 
@@ -19,8 +20,8 @@ float32 float64
 complex64 complex128
 ```
 
-
 ## Zero values
+
 Variables declared without an explicit initial value are given their zero value.
 
 The zero value is:
@@ -33,7 +34,6 @@ The zero value is:
 
 Inside a function (like the main function) the `:=` short assignment statement can be used in place of a var declaration. The `:=` operator infers the type of the new variable based on the value. It's colloquially called the walrus operator because it looks like a walrus... sort of.
 
-
 ```go
 // These two lines of code are equivalent:
 var empty string
@@ -44,7 +44,6 @@ numCars := 10 // inferred as an integer
 temperature := 0.0 // temperature is inferred as a float because it has a decimal
 var isFunny = true // inferred as a boolean
 ```
-
 
 ## SAME LINE DECLARATIONS
 
@@ -106,7 +105,6 @@ Constants can be character, string, boolean, or numeric values. They can not be 
 
 As the name implies, the value of a constant can't be changed after it has been declared.
 
-
 ## COMPUTED CONSTANTS
 
 Constants must be known at compile time. They are usually declared with a static value:
@@ -147,18 +145,21 @@ s := fmt.Sprintf("I am %v years old", "way too many")
 If you want to print in a more specific way, you can use the following formatting verbs:
 
 STRING
+
 ```go
 s := fmt.Sprintf("I am %s years old", "way too many")
 // I am way too many years old
 ```
 
 INTEGER
+
 ```go
 s := fmt.Sprintf("I am %d years old", 10)
 // I am 10 years old
 ```
 
 FLOAT
+
 ```go
 s := fmt.Sprintf("I am %f years old", 10.523)
 // I am 10.523000 years old
@@ -189,6 +190,7 @@ if length < 1 {
 ```
 
 We can do:
+
 ```go
 if length := getLength(email); length < 1 {
     fmt.Println("Email is invalid")

@@ -62,4 +62,3 @@ const printValue = function (value: unknown): void { // void, never, unknown, an
 // C# und konsorten verwenden ein nominales typ-system
 // ts verwendet ein strukturelles typ-system
 ```
-
