@@ -168,7 +168,7 @@ head -n 20 myfile.txt
 
 ```SHELL
 # search and replace, sed - stream editor
-sed -i 's/canda/canada/g' /myfile.txt e, without -
+sed -i 's/canda/canada/g' /myfile.txt
 # g: global - will replace even if more occurences in one line
 # -i: in place, it will edit the file, without -i sed only shows what it would do
 ```
@@ -271,3 +271,12 @@ egrep -r '0{3,}' /etc/
 # matches exactly three zeros
 egrep -r '0{3}' /etc/
 ```
+
+## Work with SSL Certificates
+
+When we talk about `SSL` we mean actually `TLS`.
+`SSL` stands for `secure sockets layer`.
+`TLS` stands for `transport layer security`.
+
+`SSL` had a lot of security issues and `TLS` closed those wholes.
+For more information see: [[HTTPSZertifikate]].

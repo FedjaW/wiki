@@ -93,7 +93,7 @@ Unless you have a good reason to, stick to the following types:
 - float64
 - complex128
 
-# CONSTANTS
+## CONSTANTS
 
 Constants are declared with the const keyword. They can't use the := short declaration syntax.
 
