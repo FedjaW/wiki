@@ -1,3 +1,5 @@
+# Git Objects
+
 # Blob
 
 under the hood git uses `git hash-object` to create a hash:
