@@ -20,7 +20,7 @@ float32 float64
 complex64 complex128
 ```
 
-## Zero values
+## ZERO VALUES
 
 Variables declared without an explicit initial value are given their zero value.
 
@@ -127,7 +127,7 @@ That said, you cannot declare a constant that can only be computed at run-time l
 
 ```js
 // the current time can only be known when the program is running
-const currentTime = time.Now()
+const currentTime = time.Now();
 ```
 
 ## FORMATTING STRINGS IN GO
