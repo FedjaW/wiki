@@ -21,3 +21,8 @@ git log --diff-filter=R --find-renames
 # or filter for (M) modified
 git log --diff-filter=M --oneline
 ```
+
+```SHELL
+# A nice one to see the graph
+git log --oneline --graph --all
+```
