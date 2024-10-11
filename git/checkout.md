@@ -14,4 +14,4 @@ git checkout <commit> -- <file_path>
 git checkout <deleted_commit> -- <file_path>
 ```
 
-The `--` signifies the end of a command operation and a start of pisitional parameters
+The `--` signifies the end of a command operation and a start of positional parameters

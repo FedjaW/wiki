@@ -1,5 +1,7 @@
 # git reset
 
+siehe auch: [[git/boot.dev/reset|reset]] und [[revert_vs_reset]]
+
 - Reset is another command that performs different actions depending on the arguments
   - with a path
   - without a path

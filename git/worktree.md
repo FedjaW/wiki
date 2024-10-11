@@ -1,5 +1,7 @@
 # Git Worktree
 
+siehe auch: [[worktrees]]
+
 Clone with bare:
 `git clone --bare <url_of_repo> <target_name>`
 
