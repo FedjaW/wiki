@@ -1,18 +1,6 @@
 # Vim
 
-> 1 Exit vim with `ZZ / ZQ`
-
-Exit vim WITH saving changes
-
-```vim
-ZZ
-```
-
-Exit vim WITHOUT saving changes
-
-```vim
-ZQ
-```
+> 1 Exit vim with `ZZ` WITH saving changes and `ZQ` WITHOUT saving changes
 
 > 2 Select () and {} with `vib/viB`
 
@@ -58,4 +46,20 @@ What a great day
 
 > 8 Put Vim to the background with `Ctrl-z` and return to Vim with typing `fg` in the console
 
-> 9 Open URL in browser with typing `gx` when cursor is under an URL, same works for file paths
+> 9 Open URL in browser with typing `gx` when cursor is under an URL
+
+> 10 Open file in folder with typing `gf` when cursor is under an file path
+
+> 11 Mark a location and return to it by setting a mark with `ma`, a is here any letter. Then press `'a` to return to the marked position. When typing a uppercase `A` (or any letter) you can jump between files to the mark. You can set multiple marks at a time.
+
+> 12 Jump to a specific line like a pro with `42G`. Will jump to line 42
+
+> 14 Join two lines with `J` (with space) and `gJ` (without space) when cursor placed on the upper line
+
+```text
+hallo
+welt
+
+J -> hallo welt
+gJ -> hallowelt
+```
