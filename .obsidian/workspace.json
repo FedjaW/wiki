@@ -11,8 +11,12 @@
             "id": "f781092f4b127058",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md"
+              }
             }
           }
         ]
@@ -140,6 +148,11 @@
   },
   "active": "f781092f4b127058",
   "lastOpenFiles": [
+    "go/boot.dev/15-Generics.md",
+    "go/boot.dev/16-GoProverbs.md",
+    "go/boot.dev/14-Mutexes.md",
+    "go/boot.dev/02-functions.md",
+    "go/boot.dev/01-variables.md",
     "bash/mastery/06-ArraysAndFoorLoops.md",
     "bash/mastery/05-ProcessingOptions.md",
     "bash/mastery/04-Logic.md",
@@ -161,13 +174,8 @@
     "git/boot.dev/diff.md",
     "git/alias/bestAlias.md",
     "csharp/literals-constants-variables.md",
-    "k8s/05-ClusterMaintenance/EtcdSpecialCommands.md",
-    "k8s/05-ClusterMaintenance/01-Upgrades/Upgrades.md",
     "linux/LFCS/01-EssentialCommands/01-Permissions.svg",
-    "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md",
-    "math/01-Modulo/01-Modulo.md",
     "math/01-Modulo/modulo.png",
-    "tmux/README.md",
     "go/variables",
     "git/variables",
     "go",
