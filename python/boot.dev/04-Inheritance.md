@@ -3,9 +3,9 @@
 The holy grail of object-oriented programming: inheritance. Non-OOP languages like Go and Rust allow for encapsulation and abstraction features as nearly every language does. Inheritance, on the other hand, tends to be unique to class-based languages like Python, Java, and Ruby.
 
 ## What is inheritance?
+
 Inheritance allows one class, the "child" class, to inherit the properties and methods of another class, the "parent" class.
 This powerful language feature helps us avoid writing a lot of the same code twice. It allows us to DRY (don't repeat yourself) up our code
-
 
 Here Cow is a "child" class that inherits from the "parent" class Animal:
 
