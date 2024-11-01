@@ -1,6 +1,6 @@
 # Breadth First Search
 
-- Related to this is: [[06-Tree.md]]. There we use recursion to traverse a tree.
+- Related to this is: [[06-Tree]]. There we use recursion to traverse a tree.
 
 - Visit one level of the tree at a time
 - A `queue` is the thing we need here!

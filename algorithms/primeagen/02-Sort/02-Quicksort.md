@@ -7,7 +7,7 @@ There are different sorting algorithm strategies classifications like:
 - Dynamic programming (uuuuuurgh)
 - ...
 
-![alt text](./Quicksort.png)
+![alt text](Quicksort.png)
 
 ```js
 function qs(arr: number[], lo: number, hi: number): void {

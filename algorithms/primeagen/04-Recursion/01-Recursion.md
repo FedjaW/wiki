@@ -15,4 +15,4 @@ function foo(n: number): number {
 }
 ```
 
-![alt text](./Recursion.png)
+![alt text](Recursion.png)

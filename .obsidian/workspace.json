@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "595b02cab13a804d",
+        "id": "48ad3a6202aa7a86",
         "type": "tabs",
         "children": [
           {
-            "id": "f781092f4b127058",
+            "id": "a25daf27fc5782d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,36 +138,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f781092f4b127058",
+  "active": "a25daf27fc5782d6",
   "lastOpenFiles": [
-    "go/boot.dev/15-Generics.md",
-    "go/boot.dev/16-GoProverbs.md",
-    "go/boot.dev/14-Mutexes.md",
-    "go/boot.dev/02-functions.md",
-    "go/boot.dev/01-variables.md",
-    "bash/mastery/06-ArraysAndFoorLoops.md",
-    "bash/mastery/05-ProcessingOptions.md",
-    "bash/mastery/04-Logic.md",
-    "bash/mastery/03-UserInput.md",
-    "bash/core_utils/various_commands.md",
-    "bash/core_utils/example_usecase2/showcase.md",
-    "bash/core_utils/example_usecase2/numbers.md",
-    "bash/core_utils/example_usecase/showcase.md",
-    "bash/core_utils/example_usecase/subtitles_dutch.md",
-    "bash/mastery/01-VariablesAndShellExpansions.md",
-    "bash/mastery/02-HowBashProcessesCommandsLines.md",
-    "bash/apt.md",
-    "bash/dpkg.md",
-    "bash/printf.md",
-    "bash/source.md",
-    "git/checkout.md",
-    "git/boot.dev/revert_vs_reset.md",
-    "git/boot.dev/reset.md",
-    "git/boot.dev/diff.md",
-    "git/alias/bestAlias.md",
+    "docker/cmd.md",
+    "docker/boot.dev/volumes.md",
+    "docker/boot.dev/networks.md",
     "csharp/literals-constants-variables.md",
-    "linux/LFCS/01-EssentialCommands/01-Permissions.svg",
+    "csharp/07-DependencyInjectionFundamentalsInCSharp/01-DependecyInjectionFundamentals.md",
+    "csharp/06-Patterns/01-SOLID/03-LiskovSubstitution/02-GoodExample/Program.md",
+    "csharp/06-Patterns/01-SOLID/03-LiskovSubstitution/01-BadExample/Program.md",
+    "csharp/06-Patterns/01-SOLID/02-OpenClosed/01-BadExample/Program.md",
+    "csharp/06-Patterns/01-SOLID/01-SingleResponsibility/Program.md",
+    "csharp/03-DelegatesLambdasGenerics/01-Basics/Program.md",
+    "csharp/03-DelegatesLambdasGenerics/01-Basics/Generics.md",
+    "csharp/02-StackHeapValueReference/02-StackVsHeap.md",
+    "csharp/02-StackHeapValueReference/01-RAM-Stack-Heap-Val-Ref.md",
+    "csharp/01-NamingConventions/01-NamingConventions.md",
+    "Random Notes.md",
+    "How To Learn.md",
+    "vim/vim.md",
     "math/01-Modulo/modulo.png",
+    "math/01-Modulo/01-Modulo.md",
+    "linux/LFCS/00-README.md",
+    "linux/LFCS/01-EssentialCommands/01-SoftLinks.png",
+    "linux/LFCS/01-EssentialCommands/01-SoftLinks.svg",
+    "linux/LFCS/02-OperationsDeployment/01-OperationsDeployment.md",
+    "linux/LFCS/01-EssentialCommands/01-HardLinks.svg",
+    "linux/LFCS/01-EssentialCommands/01-HardLinks.png",
+    "linux/LFCS/01-EssentialCommands/01-Permissions.svg",
+    "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md",
+    "algorithms/primeagen/04-Recursion/01-Recursion.md",
+    "python/boot.dev/02_fp/04_recursion/empty.md",
+    "algorithms/primeagen/Complexity.md",
+    "algorithms/primeagen/01-Datastructures/01-Array.md",
+    "algorithms/primeagen",
+    "algorithms/primeagen/01-Search/03-TwoCrystalBalls.md",
+    "algorithms/primeagen/01-Datastructures/02-LinkedList.png",
     "go/variables",
     "git/variables",
     "go",
@@ -184,16 +182,10 @@
     "grabbelkiste",
     "security",
     "Unbenannt.canvas",
-    "algorithms/02-Sort/Quicksort.png",
-    "algorithms/01-Datastructures/02-LinkedList.png",
+    "algorithms/primeagen/02-Sort/Quicksort.png",
     "algorithms/0-Datastructures/LinkedList.png",
     "algorithms",
-    "k8s-and-docker/02-CoreConcepts/07-KubeProxy/kube-proxy.png",
     "k8s-and-docker/06-Security/03-CertificateCreation",
-    "k8s-and-docker/06-Security/02-TLSInKubernetes",
-    "k8s-and-docker/06-Security/01-TLSBasics",
-    "k8s-and-docker/03-Scheduling/07-StaticPods/StaticPod.png",
-    "k8s-and-docker/03-Scheduling/06-DaemonSets/2-DaemonSet.png",
-    "k8s-and-docker/03-Scheduling/06-DaemonSets/1-DaemonSet.png"
+    "k8s-and-docker/06-Security/02-TLSInKubernetes"
   ]
 }
