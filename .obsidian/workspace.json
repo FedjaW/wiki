@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "48ad3a6202aa7a86",
+        "id": "e8360c909b402422",
         "type": "tabs",
         "children": [
           {
-            "id": "a25daf27fc5782d6",
+            "id": "c49059bbe2901e49",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a25daf27fc5782d6",
+  "active": "c49059bbe2901e49",
   "lastOpenFiles": [
+    "python/boot.dev/02_fp/06_closures/01_closures.md",
+    "python/boot.dev/02_fp/06_closures",
+    "python/boot.dev/02_fp/05_function_transformations/03_exercise_full_example.md",
+    "python/boot.dev/02_fp/05_function_transformations/02_why_transfrom.md",
+    "python/boot.dev/02_fp/02_first_class_functions/12_first_class_func.md",
+    "python/boot.dev/02_fp/05_function_transformations/01_func_transformations.md",
+    "python/boot.dev/02_fp/05_function_transformations/func_trans_1.png",
+    "python/boot.dev/02_fp/05_function_transformations/01_func_transformations,md",
+    "python/boot.dev/02_fp/03_pure_functions/18_memoization.md",
+    "python/boot.dev/02_fp/04_recursion/empty.md",
+    "python/boot.dev/02_fp/05_function_transformations/Bildschirmfoto 2024-11-01 um 09.12.30.png",
+    "python/boot.dev/02_fp/05_function_transformations/01_func_transformations",
     "docker/cmd.md",
     "docker/boot.dev/volumes.md",
     "docker/boot.dev/networks.md",
@@ -162,17 +174,10 @@
     "linux/LFCS/00-README.md",
     "linux/LFCS/01-EssentialCommands/01-SoftLinks.png",
     "linux/LFCS/01-EssentialCommands/01-SoftLinks.svg",
-    "linux/LFCS/02-OperationsDeployment/01-OperationsDeployment.md",
     "linux/LFCS/01-EssentialCommands/01-HardLinks.svg",
     "linux/LFCS/01-EssentialCommands/01-HardLinks.png",
     "linux/LFCS/01-EssentialCommands/01-Permissions.svg",
-    "linux/LFCS/01-EssentialCommands/01-EssentialCommands.md",
-    "algorithms/primeagen/04-Recursion/01-Recursion.md",
-    "python/boot.dev/02_fp/04_recursion/empty.md",
-    "algorithms/primeagen/Complexity.md",
-    "algorithms/primeagen/01-Datastructures/01-Array.md",
     "algorithms/primeagen",
-    "algorithms/primeagen/01-Search/03-TwoCrystalBalls.md",
     "algorithms/primeagen/01-Datastructures/02-LinkedList.png",
     "go/variables",
     "git/variables",
@@ -181,11 +186,6 @@
     "linux/LFCS/01-HardLinks.png",
     "grabbelkiste",
     "security",
-    "Unbenannt.canvas",
-    "algorithms/primeagen/02-Sort/Quicksort.png",
-    "algorithms/0-Datastructures/LinkedList.png",
-    "algorithms",
-    "k8s-and-docker/06-Security/03-CertificateCreation",
-    "k8s-and-docker/06-Security/02-TLSInKubernetes"
+    "Unbenannt.canvas"
   ]
 }
