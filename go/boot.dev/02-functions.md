@@ -27,4 +27,3 @@ func getCoords() (int, int){
   return x, y
 }
 ```
-
