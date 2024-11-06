@@ -140,6 +140,8 @@
   },
   "active": "c49059bbe2901e49",
   "lastOpenFiles": [
+    "python/boot.dev/02_fp/07_currying/01_currying.md",
+    "python/boot.dev/02_fp/07_currying",
     "python/boot.dev/02_fp/06_closures/01_closures.md",
     "python/boot.dev/02_fp/06_closures",
     "python/boot.dev/02_fp/05_function_transformations/03_exercise_full_example.md",
@@ -171,7 +173,6 @@
     "vim/vim.md",
     "math/01-Modulo/modulo.png",
     "math/01-Modulo/01-Modulo.md",
-    "linux/LFCS/00-README.md",
     "linux/LFCS/01-EssentialCommands/01-SoftLinks.png",
     "linux/LFCS/01-EssentialCommands/01-SoftLinks.svg",
     "linux/LFCS/01-EssentialCommands/01-HardLinks.svg",
@@ -185,7 +186,6 @@
     "gi",
     "linux/LFCS/01-HardLinks.png",
     "grabbelkiste",
-    "security",
     "Unbenannt.canvas"
   ]
 }

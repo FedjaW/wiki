@@ -6,7 +6,7 @@ Put simply, a closure is just a function that keeps track of some values from th
 
 ## Example
 
-The concatter() function returns a function called doc_builder (yay higher-order functions!) that has a reference to an enclosed doc value.
+The `concatter()` function returns a function called `oc_builder` (yay higher-order functions!) that has a reference to an *enclosed* `doc` value.
 
 ```py
 def concatter():
@@ -35,8 +35,14 @@ print(harry_potter_aggregator("Drive"))
 # Mr. and Mrs. Dursley of number four, Privet Drive
 ```
 
-When concatter() is called, it creates a new "stateful" function that remembers the value of its internal doc variable. Each successive call to harry_potter_aggregator appends to that same doc.
+When `concatter()` is called, it creates a new "stateful" function that *remembers* the value of its internal `doc` variable. Each successive call to `harry_potter_aggregator` appends to that same `doc`.
 
 ## nonlocal
 
 Python has a keyword called nonlocal that's required to modify a variable from an enclosing scope. Most programming languages don't require this keyword, but Python does.
+
+## Closure Practice
+
+Remember, a closure is a function that retains the state of its environment. That makes it useful for tracking data as it changes over time, but it can come at the cost of understandability.
+
+When not to use the `nonlocal` keyword: when the variable is mutable (such as a list, dictionary or set), and you are modifying its contents rather than reassigning the variable. You only need the `nonlocal` keyword if you are reassigning a variable instead of modifying its contents (which you must do to change immutable values such as strings and integers).
