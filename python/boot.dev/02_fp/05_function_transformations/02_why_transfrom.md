@@ -1,4 +1,5 @@
 # Why Transform?
+
 You might be wondering:
 
 - "When would I use function transformations in the real world?"
@@ -33,6 +34,7 @@ bold_formatter = formatter("**{}**")
 italic_formatter = formatter("*{}*")
 bullet_point_formatter = formatter("* {}")
 ```
+
 And use them like this:
 
 ```py
