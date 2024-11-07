@@ -1,5 +1,7 @@
 # Big O Notation
 
+See also: [Big O Complexity](../../primeagen/Complexity.md)
+
 There are a lot of existing algorithms; some are fast and some are slow. Some use lots of memory. It can be hard to decide which algorithm is the best to solve a particular problem. "Big O" analysis (pronounced "Big Oh", not "Big Zero") is one way to compare the practicality of algorithms.
 
 > Big O is a characterization of algorithms according to their worst-case growth rates
@@ -20,7 +22,7 @@ Where formula describes how an algorithm's run time or space requirements grow *
 
 The following chart shows the growth rate of several different Big O categories. The size of the input is shown on the `x axis` and how long the algorithm will take to complete is shown on the `y axis`.
 
-![img1](./big_o.png)
+![bigo](./big_o.png)
 
 sorrc: <https://www.bigocheatsheet.com/>
 
