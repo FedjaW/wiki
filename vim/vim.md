@@ -4,7 +4,7 @@
 
 > 2 Select () and {} with `vib/viB`
 
-```
+```txt
 to select the content within the (): `vib`
 to select the content within the {} `viB`
 
@@ -14,7 +14,7 @@ Dummy Text for testing:
 
 > 3 Edit multiple lines at once
 
-```
+```txt
 1. to put text to the beginning of all lines:
 ctrl+v to get into visual block mode
 select vertically
