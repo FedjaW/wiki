@@ -24,7 +24,7 @@ func (cfg *apiConfig) handlerUploadThumbnail(w http.ResponseWriter, r *http.Requ
 	// `file` is an `io.Reader` that we can read from to get the image dataj
 ```
 
-> Bit shifting is a way to multiply by powers of 2. 10 << 20 is the same as 10 _ 1024 _ 1024, which is 10MB.
+> Bit shifting is a way to multiply by powers of 2. `10 << 20` is the same as `10 x 1024 x 1024`, which is 10MB.
 
 For example, in Go, << means "shift left," and >> means "shift right." Shifting left is equivalent to multiplying by powers of 2, while shifting right is like dividing by powers of 2.
 
@@ -48,7 +48,7 @@ fmt.Println(y) // Output: 4 (since 16 / 2^2 = 4)
 
 Shifting right `>>` removes bits from the right, effectively dividing by powers of two.
 
-Now, regarding `10 << 20` in your lesson, can you figure out how that translates to multiplying 10 by a power of 2? What resulting number are we left with?
+> Q: Now, regarding `10 << 20` in your lesson, can you figure out how that translates to multiplying 10 by a power of 2? What resulting number are we left with?
 
 `10485760` is the answer. Here's how you got there:
 
@@ -58,9 +58,9 @@ Now, regarding `10 << 20` in your lesson, can you figure out how that translates
 
 This gives us 10 megabytes (since a megabyte is `1,048,576` bytes, or `2^20` bytes)!
 
-> Q: isnt mega `10^6` ?
+> Q: isn't mega (M) `10^6` ?
 
-In the world of computers and programming, we typically deal with binary definitions for sizes, and here "mega" (as in 1 Megabyte) is usually `2^20`, or `1,048,576`. This binary definition stems from how computers work internally—using powers of 2.
+In the world of computers and programming, we typically deal with binary definitions for sizes, and here "mega" (as in 1 Megabyte) is usually `2^20`, or `1,048,576`. This binary definition stems from how computers work internally using powers of 2.
 
 However, in general science or everyday measurements, "mega" is often defined as the decimal value `10^6` (1,000,000). That’s why there’s sometimes this discrepancy.
 
