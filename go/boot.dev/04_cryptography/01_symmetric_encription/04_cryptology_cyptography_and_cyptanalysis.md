@@ -1,7 +1,5 @@
 # Cryptology, Cryptography and Cryptanalysis
 
-Refer to the following and answer the questions
-
 ## Cryptology
 
 > The scientific study of cryptography and cryptanalysis. Wikipedia

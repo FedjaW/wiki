@@ -1,6 +1,7 @@
 # Networks
 
 ## Break the network
+
 Now that you've seen how you can ping Google successfully, let's quarantine a container and make sure that we can't reach Google.
 
 Run the "getting started" container
@@ -17,18 +18,23 @@ docker exec CONTAINER_ID ping google.com -W 2
 ```
 
 ## Load Balancers
+
 Let's try something a bit more complex: let's configure a load balancer!
 
 ### What is a load balancer?
+
 A load balancer behaves as advertised: it balances a load of network traffic. Think of a huge website like Google.com. There's no way that a single server (literally a single computer) could handle all of the Google searches for the entire world. Google uses load balancers to route requests to different servers.
 
 ### How does a load balancer work?
+
 A central server, called the "load balancer", receives traffic from users (aka clients), then routes those raw requests to different back-end application servers. In the case of Google, this splits the world's traffic across potentially many different thousands of computers.
 
 ### Application Servers
+
 First, we need to start some application servers so that we have something to load balance! We'll be using Caddy, an awesome open-source load balancer/web server. Nginx and Apache are other popular alternatives that do similar things, but Caddy is a modern version written in Go, so I think it will be cool to play with.
 
 ### What will our application servers do?
+
 Each application server will serve a slightly different HTML webpage. The reason they're different is just so that we can see load balancing in action!
 
 1. Pull down the caddy image
@@ -118,9 +124,11 @@ Once you get the HTML responses that you expect, exit out of your shell session 
 Note that if you need to restart your caddy application servers after naming them, you can use: docker start caddy1 and docker start caddy2.
 
 ## Configuring the load balancer
+
 We've confirmed that we have 2 application servers (Caddy) working properly on a custom bridge network. Let's create a load balancer that balances network requests between the two! We'll use a round-robin balancing strategy, so each request should route back and forth between the servers.
 
 ### Caddyfile for the loadbalancer
+
 Caddy works great as a file server, which is what our little HTML servers are, but it also works great as a load balancer! To use Caddy as a load balancer we need to create a custom Caddyfile to tell Caddy how we want it to balance traffic.
 
 Create a new file in your local directory called Caddyfile:
@@ -136,6 +144,7 @@ reverse_proxy caddy1:80 caddy2:80 {
 This tells Caddy to run on localhost:80, and to round robin any incoming traffic to caddy1:80 and caddy2:80. Remember, this only works because we're going to run the loadbalancer within the same network, so caddy1 and caddy2 will automatically resolve to our application server's containers.
 
 ### Run the loadbalancer
+
 Instead of providing an index.html to this Caddy server, we're going to give it our custom Caddyfile.
 
 ```shell
