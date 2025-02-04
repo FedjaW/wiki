@@ -2,9 +2,9 @@
 
 So you might already be familiar with simple JSON/HTML form POST requests. That works great for small structured data (small strings, integers, etc.), but what about large files?
 
-We don't typically send massive files as single JSON payloads or forms. Instead, we use a different encoding format called multipart/form-data. In a nutshell, it's a way to send multiple pieces of data in a single request and is commonly used for file uploads. It's the "default" way to send files to a server from an HTML form.
+We don't typically send massive files as single JSON payloads or forms. Instead, we use a different encoding format called `multipart/form-data`. In a nutshell, it's a way to send multiple pieces of data in a single request and is commonly used for file uploads. It's the "default" way to send files to a server from an HTML form.
 
-Luckily, the Go standard library's net/http package has built-in support for parsing multipart/form-data requests. The http.Request struct has a method called ParseMultipartForm.
+Luckily, the Go standard library's `net/http` package has built-in support for parsing `multipart/form-data` requests. The http.Request struct has a method called ParseMultipartForm.
 
 ```go
 func (cfg *apiConfig) handlerUploadThumbnail(w http.ResponseWriter, r *http.Request) {
@@ -21,12 +21,12 @@ func (cfg *apiConfig) handlerUploadThumbnail(w http.ResponseWriter, r *http.Requ
 	}
 	defer file.Close()
 
-	// `file` is an `io.Reader` that we can read from to get the image dataj
+	// `file` is an `io.Reader` that we can read from to get the image data
 ```
 
 > Bit shifting is a way to multiply by powers of 2. `10 << 20` is the same as `10 x 1024 x 1024`, which is 10MB.
 
-For example, in Go, << means "shift left," and >> means "shift right." Shifting left is equivalent to multiplying by powers of 2, while shifting right is like dividing by powers of 2.
+For example, in Go, `<<` means "shift left," and `>>` means "shift right." Shifting left is equivalent to multiplying by powers of 2, while shifting right is like dividing by powers of 2.
 
 Take this example:
 
