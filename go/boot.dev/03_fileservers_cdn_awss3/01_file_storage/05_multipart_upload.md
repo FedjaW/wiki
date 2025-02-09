@@ -24,6 +24,22 @@ func (cfg *apiConfig) handlerUploadThumbnail(w http.ResponseWriter, r *http.Requ
 	// `file` is an `io.Reader` that we can read from to get the image data
 ```
 
+## Assignment
+
+The handler for uploading thumbnails is currently a no-op. Let’s get it working. We’re going to keep it simple and store all image data in-memory.
+
+- Notice that in `main.go` there is a global map of video IDs to thumbnail structs called `videoThumbnails`. This is where we’re going to store the thumbnail data.
+- Notice the `handlerThumbnailGet` function. It serves the thumbnail file back to the UI, but it assumes that images exist in the `videoThumbnails` map (which they don’t yet!)
+
+### Complete the handlerUploadThumbnail function. It handles a multipart form upload of a thumbnail image and stores it in the videoThumbnails map:
+
+1. Authentication has already been taken care of for you, and the video’s ID has been parsed from the URL path.
+2. Parse the form data
+   1. Set a const `maxMemory` to 10MB. I just bit-shifted the number `10` to the left `20` times to get an `int` that stores the proper number of bytes.
+   2. Use `(http.Request).ParseMultipartForm` with the `maxMemory` const as an argument
+
+---
+
 > Bit shifting is a way to multiply by powers of 2. `10 << 20` is the same as `10 x 1024 x 1024`, which is 10MB.
 
 For example, in Go, `<<` means "shift left," and `>>` means "shift right." Shifting left is equivalent to multiplying by powers of 2, while shifting right is like dividing by powers of 2.
@@ -47,6 +63,34 @@ fmt.Println(y) // Output: 4 (since 16 / 2^2 = 4)
 ```
 
 Shifting right `>>` removes bits from the right, effectively dividing by powers of two.
+
+3. Get the image data from the form
+
+   1. Use `r.FormFile` to get the file data. The key the web browser is using is called “thumbnail”
+   2. Get the media type from the file’s `Content-Type` header
+
+4. Read all the image data into a byte slice using `io.ReadAll`
+5. Get the video’s metadata from the SQLite database. The `apiConfig`’s `db` has a `GetVideo` method you can use
+
+   - If the authenticated user is not the video owner, return a `http.StatusUnauthorized` response
+
+6. Save the thumbnail to the global map
+
+   1. Create a new `thumbnail` struct with the image data and media type
+   2. Add the thumbnail to the global map, using the video’s ID as the key
+
+7. Update the database so that the existing video record has a new thumbnail URL by using the `cfg.db.UpdateVideo` function. The thumbnail URL should have this format:
+
+```txt
+http://localhost:<port>/api/thumbnails/{videoID}
+```
+
+This will all work because the `/api/thumbnails/{videoID}` endpoint serves thumbnails from that global map.
+
+8. Respond with updated JSON of the video’s metadata. Use the provided respondwithJSON function and pass it the updated 1database.Video1 struct to marshal.
+9. Test your handler manually by using the Tubely UI to upload the `boots-image-horizontal.png` image. You should see the thumbnail update in the UI!
+
+## Q & A
 
 > Q: Now, regarding `10 << 20` in your lesson, can you figure out how that translates to multiplying 10 by a power of 2? What resulting number are we left with?
 
