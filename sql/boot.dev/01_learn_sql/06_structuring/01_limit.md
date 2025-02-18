@@ -26,4 +26,7 @@ The query should return at most `5` records.
 ### Solution
 
 ```sql
+SELECT * FROM transactions 
+WHERE note LIKE '%lunch%'
+LIMIT 5;
 ```

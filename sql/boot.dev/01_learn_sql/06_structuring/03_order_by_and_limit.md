@@ -11,4 +11,10 @@ Fix the bug in the SQL query.
 ### Solution
 
 ```sql
+SELECT * FROM transactions
+WHERE amount BETWEEN 10 AND 80
+ORDER BY amount DESC
+LIMIT 4;
 ```
+
+switched order by and limit statements so that order by comes first.

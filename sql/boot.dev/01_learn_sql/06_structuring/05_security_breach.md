@@ -9,4 +9,8 @@ Write a query that returns the `name` and `username` for every user with a `pass
 ### Solution
 
 ```sql
+SELECT name, username
+FROM users
+WHERE password IN ('backendDev', 'welovebootdev', 'SQLrocks')
+ORDER BY name;
 ```

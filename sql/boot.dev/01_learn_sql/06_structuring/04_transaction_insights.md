@@ -9,4 +9,9 @@ Using the setup code - write a query that returns the recipient's ID along with 
 ### Solution
 
 ```sql
+SELECT recipient_id, amount, note
+FROM transactions
+WHERE was_successful = true
+ORDER BY amount DESC
+LIMIT 5;
 ```

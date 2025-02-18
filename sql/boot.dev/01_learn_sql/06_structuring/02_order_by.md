@@ -28,4 +28,17 @@ Write a query that lists all the records in the `transactions` table where:
 ### Solution
 
 ```sql
+SELECT * FROM transactions
+WHERE amount BETWEEN 10 AND 80
+ORDER BY amount DESC;
 ```
+
+Same as 
+
+```sql
+SELECT * FROM transactions
+WHERE (amount >= 10 AND amount <= 80)
+ORDER BY amount DESC;
+```
+
+not that `BETWEEN` is icluding 10 and 80
