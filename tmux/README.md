@@ -13,7 +13,7 @@ If no server is running already then it will spin up one and open a pane on a wi
 
 `C-d` writes an EOF (end of line) to stdin, which closes the shell.
 
-`tmux list-sessions` will list all sessions running on the server.
+`tmux list-sessions` or `tmux ls` will list all sessions running on the server.
 
 `tmux kill-server` will kill the server.
 
@@ -44,6 +44,10 @@ Usually you do not need this but for the record:
 `<prefix>-n` will go to the next window
 `<prefix>-v` will go to the prev window
 `<prefix>-1` will go to the first window
+
+## Leave tmux
+
+`<leader> d` will detach from tmux
 
 ## Nice stuff
 

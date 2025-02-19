@@ -41,3 +41,11 @@ Our frontend team is working on a profile page and would like to display a user'
 - Write an `INNER JOIN` between `users` and `countries`
 - Return all fields from both tables
 - Join on the `country_code` field
+
+### Solution
+
+```sql
+SELECT * FROM users
+INNER JOIN countries
+ON users.country_code = countries.country_code;
+```
