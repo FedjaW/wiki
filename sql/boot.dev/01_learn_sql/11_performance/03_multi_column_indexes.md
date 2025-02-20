@@ -22,3 +22,18 @@ We frequently need to lookup all the transactions between 2 specific users! Ther
 Add an index on the `user_id` and `recipient_id` columns called `user_id_recipient_id_idx` to speed up our app!
 
 Make sure the `user_id` is the first column in the index so that we can also use this index to speed up our queries that only care about the `user_id`.
+
+### Solution
+
+```sql
+CREATE TABLE transactions (
+    id INTEGER PRIMARY KEY,
+    user_id INTEGER,
+    recipient_id INTEGER,
+    sender_id INTEGER,
+    amount INTEGER
+);
+
+CREATE INDEX user_id_recipient_id_idx on transactions
+    (user_id, recipient_id);
+```

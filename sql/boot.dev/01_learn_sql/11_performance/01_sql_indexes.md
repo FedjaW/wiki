@@ -15,3 +15,9 @@ It's fairly common to name an index after the column it's created on with a suff
 ## Assignment
 
 As it turns out, the front-end frequently finds itself in a state where it knows a user's `email` but not their `id`. Let's add an index to the `email` field called `email_idx`.
+
+### Solution
+
+```sql
+CREATE INDEX email_idx ON users (email);
+```

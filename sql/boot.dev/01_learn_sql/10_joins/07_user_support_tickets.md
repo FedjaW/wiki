@@ -17,4 +17,14 @@ Exclude any tickets that have `"Account Access"` as the `issue_type` and only re
 ### Solution
 
 ```sql
+SELECT 
+    users.name, 
+    users.username, 
+    COUNT(support_tickets.id) AS support_ticket_count
+FROM users
+INNER JOIN support_tickets ON users.id = support_tickets.user_id
+WHERE support_tickets.issue_type != 'Account Access'
+GROUP BY users.id
+HAVING support_ticket_count > 1
+ORDER BY support_ticket_count DESC;
 ```

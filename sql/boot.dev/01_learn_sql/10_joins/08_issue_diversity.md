@@ -15,4 +15,13 @@ Only include records for countries that have support tickets linking back to a u
 ### Solution
 
 ```sql
+SELECT
+    countries.name,
+    countries.country_code,
+    COUNT(DISTINCT support_tickets.issue_type) AS issue_diversity
+FROM countries
+INNER JOIN users ON countries.country_code = users.country_code
+INNER JOIN support_tickets ON users.id = support_tickets.user_id
+GROUP BY countries.name
+ORDER BY issue_diversity DESC, countries.name ASC;
 ```

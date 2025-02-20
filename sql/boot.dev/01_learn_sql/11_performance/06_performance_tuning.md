@@ -36,4 +36,12 @@ WHERE id = (SELECT product_id FROM orders WHERE id = 1);
 ### Solution
 
 ```sql
+ALTER TABLE users ADD COLUMN country_name TEXT NOT NULL DEFAULT 'Wonderland';
+ALTER TABLE users ADD COLUMN country_code TEXT NOT NULL DEFAULT 'WL';
+CREATE INDEX country_code_idx ON users (country_code);
+UPDATE users
+SET country_name = (SELECT name FROM countries WHERE id = country_id),
+    country_code = (SELECT country_code FROM countries WHERE id = country_id);
+ALTER TABLE users DROP COLUMN country_id;
+DROP TABLE countries;
 ```
