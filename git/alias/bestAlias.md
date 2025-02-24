@@ -1,6 +1,6 @@
 # Git Alias
 
-```
+```SHELL
 git status
 
 a good alias for it is:
@@ -10,7 +10,7 @@ create alias:
 git config --global alias.sta "status"
 ```
 
-```
+```SHELL
 a shorter version of git status
 git status -s
 
@@ -21,7 +21,7 @@ create alias:
 git config --global alias.st "status -s"
 ```
 
-```
+```SHELL
 git commit
 
 a good alias for it is:
@@ -31,7 +31,7 @@ create alias:
 git config --global alias.co "commit"
 ```
 
-```
+```SHELL
 git switch
 
 a good alias for it is:
@@ -41,7 +41,7 @@ create alias:
 git config --global alias.sw "switch"
 ```
 
-```
+```SHELL
 git checkout
 
 a good alias for it is:
@@ -51,7 +51,8 @@ create alias:
 git config --global alias.ch "checkout"
 ```
 
-```
+```SHELL
+git checkout
 removes files from staging area
 git reset HEAD
 
@@ -69,7 +70,7 @@ git clean df
 will delete untracked files
 ```
 
-```
+```SHELL
 git pull --reset
 
 a good alias for it is:
@@ -80,8 +81,8 @@ git config --global alias.pure "pull --reset"
 ```
 
 useful commands
-```
+
+```SHELL
 will show all branches, also the remote ones
 git branch -a
 ```
-

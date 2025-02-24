@@ -92,6 +92,7 @@ You can stash changes with a message.
 ```shell
 git stash -m "my message"
 ```
+
 Grab a single file from the stash
 
 ```shell
