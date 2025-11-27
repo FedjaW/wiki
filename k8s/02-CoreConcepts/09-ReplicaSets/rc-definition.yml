@@ -4,7 +4,7 @@ metadata:
   name: myapp-pod
   labels:
     app: myapp
-    type: front-end # also tier instead of type?
+    type: front-end
 spec:
   replicas: 3
   selector:
@@ -18,5 +18,5 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: nginx-container
-        image: nginx
+        - name: nginx-container
+          image: nginx
